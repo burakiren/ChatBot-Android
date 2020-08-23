@@ -1,0 +1,3 @@
+include ':ChatBot'
+include ':app'
+rootProject.name = "ChatBotLibrary"
