@@ -1,5 +1,7 @@
 package com.burakiren.chatbot
 
+import android.graphics.Color
+
 class ChatBotTheme(builder: Builder) {
 
     private var senderColor: Int
@@ -17,8 +19,8 @@ class ChatBotTheme(builder: Builder) {
     }
 
     class Builder {
-        var senderColor: Int = 123456
-        var receiverColor: Int = 324567
+        var senderColor: Int = Color.RED
+        var receiverColor: Int = Color.BLUE
 
         fun setSenderColor(senderColor: Int): Builder {
             this.senderColor = senderColor
